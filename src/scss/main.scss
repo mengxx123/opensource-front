@@ -1,0 +1,104 @@
+@import "normalize.css";
+@import "reset.css";
+
+.page-header {
+    height: 48px;
+    background: #fff repeat-x;
+    border-bottom: 1px solid #d5e2e6;
+    .logo {
+        color: #0075bc;
+        font-size: 24px;
+        line-height: 48px;
+    }
+}
+.banner-box {
+    height: 281px;
+    background: #e9f0f3;
+    border-bottom: 1px solid #d5e2e6;
+    .row {
+        position: relative;
+        height: 280px;
+    }
+    h1 {
+        position: absolute;
+        top: 60px;
+        left: 15px;
+        width: 600px;
+        font-size: 72px;
+        height: 86px;
+        color: #0075bc;
+        background: url(/static/img/intro.png) -10px top no-repeat;
+        text-indent: -9999px;
+        overflow: hidden;
+    }
+    h2 {
+        position: absolute;
+        top: 150px;
+        left: 15px;
+        width: 400px;
+        height: 42px;
+        font-size: 32px;
+        color: #aaa;
+        background: url(/static/img/intro.png) -10px -110px no-repeat;
+        text-indent: -9999px;
+        overflow: hidden;
+    }
+}
+.section-title {
+    margin-top: 32px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.project-list {
+    .project-item {
+        margin: 15px 0;
+        text-align: center;
+        background: #f3f3f3;
+        border: 4px solid #f3f3f3;
+        padding: 0 0 10px;
+        border-radius: 2px;
+        overflow: hidden;
+        .open-img {
+            position: relative;
+            height: 150px;
+            display: block;
+            background-color: #fff;
+            text-align: center;
+            img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                height: 150px;
+                width: 200px;
+                margin-left: -100px;
+                margin-top: -75px;
+            }
+        }
+        h4 {
+            font-size: 14px;
+            font-weight: bold;
+            margin: 15px 0 12px;
+        }
+        p {
+            color: #999;
+            padding: 0 15px;
+            height: 25px;
+        }
+    }
+    a {
+        color: #2d374b;
+        text-decoration: none;
+    }
+}
+.page-footer {
+    padding: 30px 0 15px;
+    margin: 15px 0 0;
+    font-size: 14px;
+    color: #666;
+    background: #eee url(/static/img/footer-bg.png) repeat-x;
+    .copyright {
+        text-align: center;
+        line-height: 25px;
+    }
+}
